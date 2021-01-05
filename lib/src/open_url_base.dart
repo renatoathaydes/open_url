@@ -19,7 +19,7 @@ String get _command {
   } else if (Platform.isMacOS) {
     return 'open';
   } else {
-    throw UnsupportedError("Operating system not supported by the open_url "
-        "package: ${Platform.operatingSystem}");
+    throw UnsupportedError('Operating system not supported by the open_url '
+        'package: ${Platform.operatingSystem}');
   }
 }
