@@ -1,6 +1,6 @@
 name: open_url
 description: Open a URL on the user's default application. Helpful on DartVM, on Flutter use url_launcher instead.
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/renatoathaydes/open_url
 
 environment:

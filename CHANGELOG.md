@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Escaping ampersand character in URLs on Windows platform
+
 ## 2.0.0
 
 - Stable null-safety!
