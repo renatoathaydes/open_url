@@ -11,7 +11,7 @@ Future<ProcessResult> openUrl(String url) {
   if (Platform.isWindows) {
     /// This is needed because ampersand has to be escaped with carret on Windows shell,
     /// otherwise opened URL will be trimmed by first ampersand
-    url = url.replaceAllMapped(RegExp("([^^])&"),(m) => "${m[1]}^&");
+    url = url.replaceAllMapped(RegExp('([^^])&'), (m) => '${m[1]}^&');
   }
   return Process.run(_command, [url], runInShell: true);
 }
