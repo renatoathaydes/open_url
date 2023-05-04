@@ -1,5 +1,7 @@
 # open_url
 
+[![pub package](https://img.shields.io/pub/v/open_url.svg)](https://pub.dev/packages/open_url)
+
 Simple package to open URLs on the user's default application, using the platform's default utility:
 
 * `start` on Windows.
